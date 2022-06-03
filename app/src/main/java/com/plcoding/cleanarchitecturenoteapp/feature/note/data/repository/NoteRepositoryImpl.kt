@@ -2,6 +2,7 @@ package com.plcoding.cleanarchitecturenoteapp.feature.note.data.repository
 
 import com.plcoding.cleanarchitecturenoteapp.feature.note.data.data_source.NoteDao
 import com.plcoding.cleanarchitecturenoteapp.feature.note.domain.model.Note
+import com.plcoding.cleanarchitecturenoteapp.feature.note.domain.repository.NoteRepository
 import kotlinx.coroutines.flow.Flow
 
 /**

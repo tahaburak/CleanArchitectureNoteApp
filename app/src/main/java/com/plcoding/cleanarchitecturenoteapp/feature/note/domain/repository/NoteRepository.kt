@@ -1,4 +1,4 @@
-package com.plcoding.cleanarchitecturenoteapp.feature.note.data.repository
+package com.plcoding.cleanarchitecturenoteapp.feature.note.domain.repository
 
 import com.plcoding.cleanarchitecturenoteapp.feature.note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
