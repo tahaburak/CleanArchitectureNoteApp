@@ -9,6 +9,6 @@ import com.plcoding.cleanarchitecturenoteapp.feature.note.domain.util.OrderType
  */
 data class NotesState(
     val notes: List<Note> = emptyList(),
-    val noteOrder: NoteOrder = NoteOrder.Date(OrderType.Descending),
+    val noteOrder: NoteOrder = NoteOrder.DEFAULT_NOTE_ORDER,
     val isOrderSectionVisible: Boolean = false
 )

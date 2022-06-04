@@ -33,7 +33,7 @@ class NotesViewModel @Inject constructor(
 
 
     init {
-        getNotes(NoteOrder.Date(OrderType.Descending))
+        getNotes(NoteOrder.DEFAULT_NOTE_ORDER)
     }
 
     fun onEvent(event: NotesEvent) {
