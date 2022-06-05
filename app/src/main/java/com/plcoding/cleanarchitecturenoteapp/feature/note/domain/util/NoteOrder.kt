@@ -12,11 +12,11 @@ sealed class NoteOrder(val orderType: OrderType) {
         val DEFAULT_NOTE_ORDER = Date(OrderType.Descending)
     }
 
-    fun copy(orderType: OrderType):NoteOrder{
-        return when(this){
-            is Title->Title(orderType)
-            is Date->Date(orderType)
-            is Color->Color(orderType)
+    fun copy(orderType: OrderType): NoteOrder {
+        return when (this) {
+            is Title -> Title(orderType)
+            is Date -> Date(orderType)
+            is Color -> Color(orderType)
         }
     }
 }
